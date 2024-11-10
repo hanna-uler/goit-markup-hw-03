@@ -28,6 +28,8 @@ h3 {font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    padding-top: 32px;
+    padding-bottom: 8px;
 }
 
 img {display: block;
@@ -156,13 +158,27 @@ box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 /* #endregion */
 
 /* #region Team Section */
-
+.team-title {margin-bottom: 72px;}
 .team-section {background-color: #f4f4fd;}
-.team-card {background-color: #fff;}
+.team-card {
+    background-color: #fff;
+    border-radius: 0 0 4px 4px;
+    padding: 0 0 32px 0;
+}
 .team-name,
 .team-position {
     text-align: center;
 }
+
+.team-list {
+    display: flex;
+    gap: 24px;
+}
+
+.team-card {
+    width: calc((100% - 3 * 24px) / 4);
+}
+
 /* #endregion */
 
 
