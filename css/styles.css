@@ -200,7 +200,7 @@ box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
 
 .portfolio-item {
-    width: calc((100vh - 2 * 24) / 3);
+width: calc((100vh - 2 * 24px) / 3);
 }
 
 .portfolio-text {
