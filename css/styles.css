@@ -197,7 +197,6 @@ align-items: center;
 .team-card {
     background-color: #fff;
     border-radius: 0 0 4px 4px;
-    padding: 0 0 32px 0;
     width: calc((100% - 3 * 24px) / 4);
 }
 
